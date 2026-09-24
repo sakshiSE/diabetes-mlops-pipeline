@@ -1,0 +1,13 @@
+{
+    "dataset": "Pima Indians Diabetes Dataset",
+    "task": "binary classification",
+    "target": "Outcome",
+    "metric": "accuracy",
+    "random_state": 42,
+    "validation_size": 0.2,
+    "baseline_score": 0.6493506493506493,
+    "model_score": 0.7077922077922078,
+    "improvement_margin": 0.05,
+    "required_score": 0.6993506493506494,
+    "gate_result": "PASS"
+}
