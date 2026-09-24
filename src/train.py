@@ -148,18 +148,7 @@ baseline_score = accuracy_score(
 
 print("Training candidate model...")
 
-candidate = Pipeline(
-    [
-        ("scaler", StandardScaler()),
-        (
-            "model",
-            LogisticRegression(
-                max_iter=1000,
-                random_state=RANDOM_STATE
-            )
-        ),
-    ]
-)
+candidate = candidate = DummyClassifier(strategy="most_frequent")
 
 candidate.fit(X_train, y_train)
 
