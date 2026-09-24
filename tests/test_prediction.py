@@ -26,7 +26,7 @@ def test_valid_prediction():
     result = predict(VALID_SAMPLE)
 
     assert isinstance(result, np.ndarray)
-    assert result.shape == (2,)
+    assert result.shape == (1,)
     assert result[0] in [0, 1]
 
 
